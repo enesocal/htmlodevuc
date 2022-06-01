@@ -1,0 +1,98 @@
+
+.testimonial{
+    float: left;
+}
+.testimonial-flex {
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 670px;
+    min-height: 10px;
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+    margin: 50px 30px;
+    color: white;
+}
+/* .testimonial-flex span {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin: -30px -30px;
+    border: 1px solid white;
+    border-radius: 80px;
+    background-image: url(https://lmpixels.com/wp/leven-wp/wp-content/uploads/2019/12/testimonial-1.jpg);
+    object-position: 15px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+#image1{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin: -30px -30px;
+    border: 1px solid white;
+    border-radius: 80px;
+    background-image: url(https://lmpixels.com/wp/leven-wp/wp-content/uploads/2019/12/testimonial-1.jpg);
+    object-position: 15px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#image2{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin: -30px -30px;
+    border: 1px solid white;
+    border-radius: 80px;
+    background-image: url(https://lmpixels.com/wp/leven-wp/wp-content/uploads/2019/12/testimonial-1.jpg);
+    object-position: 15px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+
+.testimonial-left {
+      padding: 16px 2px 0px ;
+}
+
+.testimonial-left img{
+    filter: invert(100%) sepia(5%) saturate(311%) hue-rotate(316deg) brightness(109%) contrast(80%);
+    width: 20px;
+    height: 16px;
+    padding: 75px 20px 0px;
+}
+
+.testimonil-right-top {
+    color: #666;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-style: italic;
+    margin: 25px 0 0;
+}
+
+.testimonil-right-bottom {
+color: black;
+margin-bottom: 20px;
+}
+.testimonil-right-bottom h5{
+    margin: 20px 0 5px;
+    font-size: .9em;
+    font-family: "Poppins",Helvetica,sans-serif;
+}
+.testimonil-right-bottom p{
+    margin: 0;
+    font-size: .8em;
+    color: #bbb
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Formu Sayfası</title>
+
+<style>
+p.solid {
+    border-style: solid;
+}
+
+body{
+    background:rgb(235, 233, 233);
+}
+
+u{
+    color: rgb(211, 24, 24);
+}
+#gonderbutonu { 
+    
+    background-color: rgb(103, 103, 193);
+    color: azure;
+  font-size: medium;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<p class="solid">
+    <u><h3><b>Başvuru</b> <em>Formu</em> </h3></u>    
+</p>
+
+<p class="solid">A solid border.</p>
+<form action="get">
+
+İsim: <input type="text" name="İsim    " id="" placeholder="İsiminizi Giriniz">
+<br> <br>
+Soyad: <input type="text" name="Soyisim" id="" placeholder="Soyadınızı Giriniz" >
+<br> <br>
+Sevdiğiniz Spor <input type="checkbox" name="Futbol" id="" value="Futbol"> Futbol
+<input type="checkbox" name="Spor" id="Basketbol" value="Basketbol"> Basketbol
+<input type="checkbox" name="Spor" id="Voleybol" value="Voleybol"> Voleybol
+<br> <br>
+Cinsiyet:
+<input type="radio" name="Cinsiyet" id="radioerkek" value="erkek">Erkek
+<input type="radio" name="Cinsiyet" id="radiokadın" value="kadın">Kadın
+
+<br> <br>
+
+Güvenlik Sorusu: Türkiyenin Başkenti Neresidir?
+<Br></Br>
+<select name="guvenliksorusu" id=guvenliksorusu"">
+    <option value="bos">Lütfen Bir Cevap Seçiniz</option>
+    <option value="konya"> Konya</option>
+    <option value="ankara">Ankara</option>
+
+</select>
+<br><br>
+<input type="submit" id="gonderbutonu" value="Gönder">
+
+
+</form>
+
+
+
+
+
+</body>
+</html>
